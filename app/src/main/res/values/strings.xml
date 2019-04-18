@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Latihan2_10116503_AKB-11_AdisriYustitiaarofa</string>
+    <string name="username">username</string>
+    <string name="katasandi">password</string>
+    <string name="Login">LOGIN</string>
+    <string name="konekfacebook">CONNECT WITH FACEBOOK</string>
+    <string name="tomboldaftar"><b>Register</b></string>
+    <string name="Email">Email</string>
+    <string name="Nama">Nama</string>
+    <string name="PhoneNumber">Phone number</string>
+    <string name="lakilaki">Male</string>
+    <string name="perempuan">Female</string>
+    <string name="personal">Personal</string>
+    <string name="organisasi">Organitation</string>
+    <string name="katasandi2">Retype password</string>
+    <string name="rumah">Home Adress</string>
+    <string name="lokasi">Default Location</string>
+    <string name="agree">Agree with Terms and Conditions</string>
+    <string name="almost">Almost There</string>
+    <string name="terimaksih">Thank you for registering with us. One more \n step, you need to check your email \n to active your account</string>
+    <string name="verify">VERIFY</string>
+    <string name="verikasiakun">Verify your Account</string>
+    <string name="bacaan1">we have send verification code to your email</string>
+    <string name="bacaanenter">enter verification code here...</string>
+    <string name="send">Send</string>
+    <string name="kirimulang">doesn\'t get the code ?<b> Resend</b></string>
+    <string name="namasaya">ADISRI YUSTITIA AROFA</string>
+    <string name="darah">Blood Type : B </string>
+    <string name="tujuh">75</string>
+    <string name="bloodgive">BLOOD GIVE</string>
+    <string name="seratus">100</string>
+    <string name="BR">BLOOD RECEIVED</string>
+    <string name="tigaratus">330</string>
+    <string name="makasih">THANKS</string>
+    <string name="SD"><b>Search Donor</b></string>
+    <string name="SDY">Search donor near you</string>
+    <string name="BN"><b>Blood Needed</b></string>
+    <string name="unb">4 Users need blood</string>
+    <string name="message"><b>Message</b></string>
+    <string name="NM">5 New Messages</string>
+    <string name="donor"><b>Donor History</b></string>
+    <string name="beri">5 Gives, 2 Received</string>
+
+</resources>

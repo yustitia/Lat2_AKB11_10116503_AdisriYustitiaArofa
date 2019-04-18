@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".daftar_activity"
+    android:orientation="vertical"
+    android:background="@color/warnaputih">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/header_daftar">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/tmbl_kembali"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:textColor="@color/warnaputih"
+            android:text="@string/tomboldaftar"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/fontdesc"
+            android:hint="@string/Nama"
+            android:textSize="14sp"
+            android:textColor="@color/Fonttitle"
+            android:textColorHint="@color/fontdesc" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp"
+            android:backgroundTint="@color/fontdesc"
+            android:hint="@string/Email"
+            android:textColor="@color/Fonttitle"
+            android:textColorHint="@color/fontdesc" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp"
+            android:backgroundTint="@color/fontdesc"
+            android:hint="@string/PhoneNumber"
+            android:textColor="@color/Fonttitle"
+            android:textColorHint="@color/fontdesc" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="13dp"
+            android:gravity="center"
+            android:weightSum="10"
+            android:layout_marginTop="12dp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="5"
+                android:textSize="14sp"
+                android:textColor="@color/fontdesc"
+                android:buttonTint="@color/fontdesc"
+                android:text="@string/lakilaki"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="5"
+                android:textSize="14sp"
+                android:buttonTint="@color/fontdesc"
+                android:textColor="@color/fontdesc"
+                android:text="@string/perempuan"/>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/P_typedarah"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:entries="@array/typenya"
+                android:layout_weight="1"/>
+            <Spinner
+                android:id="@+id/P_reshus"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:textSize="14sp"
+                android:entries="@array/reshus"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:backgroundTint="@color/fontdesc"
+            android:hint="@string/katasandi"
+            android:textColor="@color/Fonttitle"
+            android:textColorHint="@color/fontdesc" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:backgroundTint="@color/fontdesc"
+            android:hint="@string/katasandi2"
+            android:textColor="@color/Fonttitle"
+            android:textColorHint="@color/fontdesc"/>
+        <Spinner
+            android:id="@+id/P_pekerjaan"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:entries="@array/pekerjaan"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/fontdesc"
+            android:hint="@string/rumah"
+            android:textSize="14sp"
+            android:textColor="@color/Fonttitle"
+            android:textColorHint="@color/fontdesc" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp"
+            android:backgroundTint="@color/fontdesc"
+            android:hint="@string/lokasi"
+            android:drawableEnd="@drawable/lokasi"
+            android:textColor="@color/Fonttitle"
+            android:textColorHint="@color/fontdesc" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/customtomboltransparan"
+            android:text="@string/agree"
+            android:textColor="@color/fontdesc"
+            android:buttonTint="@color/warnadasar"/>
+
+        <Button
+            android:id="@+id/btn_masukverifikasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custombuttontransparanbiru"
+            android:text="@string/Login"
+            android:textColor="@color/warnadasar"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

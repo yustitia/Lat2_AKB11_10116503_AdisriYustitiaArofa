@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendActivity"
+    android:orientation="vertical"
+    android:background="@color/warnadasar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/verikasiakun"
+            android:gravity="center"
+            android:layout_marginTop="180dp"
+            android:textSize="35dp"
+            android:textColor="@color/warnaputih"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bacaan1"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/warnaputih"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:hint="@string/bacaanenter"
+            android:gravity="center"
+            android:textSize="19sp"
+            android:textColor="@color/hitam"
+            android:backgroundTint="@color/warnaputih"
+            android:textColorHint="@color/warnaputih"/>
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/customtomboltransparan"
+            android:text="@string/send"
+            android:textColor="@color/warnaputih"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kirimulang"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/warnaputih"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
